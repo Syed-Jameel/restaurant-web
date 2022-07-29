@@ -24,11 +24,11 @@ app.get('/', (req, res)=>{
 })
 
 app.get('/special', (req, res)=>{
-    res.render('Special')
+    res.render('special')
 })
 
 app.get('/about', (req, res)=>{
-    res.render('About')
+    res.render('about')
 })
 
 app.get('/dishes', (req, res)=>{
